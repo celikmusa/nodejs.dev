@@ -14,13 +14,13 @@ node app.js
 
 Arguments can be standalone or have a key and a value.
 
-For example:
+Örneğin:
 
 ```bash
 node app.js joe
 ```
 
-or
+veya
 
 ```bash
 node app.js name=joe
@@ -65,7 +65,7 @@ const args = process.argv.slice(2)
 args[0]
 ```
 
-In this case:
+Bu durumda:
 
 ```bash
 node app.js name=joe
