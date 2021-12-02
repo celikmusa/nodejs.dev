@@ -58,7 +58,7 @@ If you have one argument without an index name, like this:
 node app.js joe
 ```
 
-you can access it using
+kullanarak erişebilirsiniz
 
 ```js
 const args = process.argv.slice(2)
@@ -79,7 +79,7 @@ const args = require('minimist')(process.argv.slice(2))
 args['name'] //joe
 ```
 
-Install the required `minimist` package using `npm` (lesson about the package manager comes [later on](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)).
+Gerekli `minimist` paketini `npm` kullanarak kurun (lesson about the package manager comes [later on](https://nodejs.dev/learn/an-introduction-to-the-npm-package-manager)).
 
 ```bash
 npm install minimist
